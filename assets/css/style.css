@@ -1,8 +1,7 @@
 :root {
-	--bg-colour: #1E2F45;
-	--fg-colour: #3B4588;
-	--accent-colour: #2A6A9B;
-	--text-colour: white;
+	--bg-colour: WhiteSmoke;
+	--fg-colour: SeaGreen;
+	--text-colour: black;
 
 	--standard-padding: 10px;
 	--standard-margin: 10px;
@@ -88,7 +87,7 @@ body {
 }
 
 #topbar > a:hover {
-	background-color: var(--accent-colour);
+	color: var(--bg-colour);
 }
 
 #main {
