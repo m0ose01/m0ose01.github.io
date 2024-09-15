@@ -1,0 +1,128 @@
+:root {
+	--bg-colour: #1E2F45;
+	--fg-colour: #3B4588;
+	--accent-colour: #2A6A9B;
+	--text-colour: white;
+
+	--standard-padding: 10px;
+	--standard-margin: 10px;
+	--border-radius: 5px;
+	font-family: "Montserrat", sans-serif;
+	color: var(--text-colour);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--bg-colour);
+}
+
+@media screen and (max-width: 999px) {
+	.grid-container {
+		min-height: 100vh;
+		margin: 0px;
+
+		display: grid;
+		grid-template-columns: minmax(800px, 100vw);
+		grid-template-rows: 200px 50px auto auto auto auto;
+		grid-template-areas:
+			"header"
+			"topbar"
+			"sidebar-right"
+			"main"
+			"sidebar-left"
+			"footer";
+		row-gap: 5px;
+		column-gap: 5px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.grid-container {
+		min-height: 100vh;
+		margin: 0px;
+
+		display: grid;
+		grid-template-columns: 1fr 800px 1fr;
+		grid-template-rows: 200px 50px auto auto;
+		grid-template-areas:
+			"header header header"
+			"topbar topbar topbar"
+			"sidebar-left main sidebar-right"
+			"footer footer footer";
+		row-gap: 5px;
+		column-gap: 20px;
+	}
+}
+
+#header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	grid-area: header;
+}
+
+#topbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: sticky;
+	top: 0px;
+
+	background-color: var(--fg-colour);
+	grid-area: topbar;
+}
+
+#topbar > a {
+	text-decoration: none;
+	color: var(--text-colour);
+	padding: var(--standard-padding);
+	height: 100%;
+
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#topbar > a:hover {
+	background-color: var(--accent-colour);
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	grid-area: main;
+}
+
+#sidebar-left {
+	grid-area: sidebar-left;
+	align-items: end;
+}
+
+#sidebar-right {
+	grid-area: sidebar-right;
+	align-items: start;
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+#footer {
+	grid-area: footer;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--fg-colour)
+}
+
+li > a {
+	text-decoration: none;
+	color: var(--text-colour);
+}
