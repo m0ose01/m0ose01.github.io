@@ -1,0 +1,23 @@
+{{ define "main" }}
+	<article class="main-text">
+		<header>
+			<h1>{{ .Title }}</h1>
+		</header>
+		{{ .Content }}
+	</article>
+{{ end }}
+
+{{ define "sidebar-right" }}
+	<h1>Table of Contents</h1>
+
+	{{ .TableOfContents }}
+
+{{ end }}
+
+
+{{ define "sidebar-left" }}
+{{ end }}
+
+
+{{ define "footer" }}
+{{ end }}

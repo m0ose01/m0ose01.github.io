@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width", initial-scale="1.0">
+		{{ with resources.GetMatch "css/style.css" }}
+		<link rel="stylesheet" href="{{ .RelPermalink }}">
+		{{ end }}
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+		<title>
+			{{ block "title" . }}
+			{{ .Site.Title }}
+			{{ end }}
+		</title>
+	</head>
+	<body class="grid-container">
+		<div id="header">
+			<h1>
+				{{ .Site.Title }}
+			</h1>
+			<p>
+				B.A. Mod. Neuroscience	
+			</p>
+		</div>
+
+		<nav id="topbar">
+			<a href="{{ .Site.Home.Permalink }}">
+				Home
+			</a>
+			{{ range .Site.Sections}}
+			<a href="{{ .RelPermalink }}">
+				{{ .Title }}
+			</a>
+			{{ end }}
+		</nav>
+
+		<div class="sidebar" id="sidebar-left">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas malesuada ligula ac elementum. Proin condimentum eros non metus eleifend placerat. Aenean placerat condimentum eros, in pretium risus pretium id. Praesent ut auctor lectus. Vestibulum sed ullamcorper nunc, et tincidunt neque. Sed consequat tincidunt purus at feugiat. Suspendisse consequat consectetur turpis ac efficitur. Donec vitae orci mollis risus euismod porttitor eget sed nisi. Duis tortor turpis, gravida nec dapibus sed, blandit eget diam. Quisque ut aliquet ante, non ullamcorper odio. Ut consectetur nisi at metus molestie auctor.
+		</p>
+		{{ block "sidebar-left" . }}
+		{{ end }}
+		</div>
+
+		<div id="main">
+			{{ block "main" . }}
+			{{ end }}
+		</div>
+
+		<div class="sidebar" id="sidebar-right">
+		{{ block "sidebar-right" . }}
+		{{ end }}
+		</div>
+
+		<div id="footer">
+			<p>
+				Copyright 2024 Séamus O'Sullivan
+			</p>
+			{{ block "footer" . }}
+			{{ end }}
+		</div>
+	</body>
+</html>
