@@ -29,7 +29,7 @@ img {
 		margin: 0px;
 
 		display: grid;
-		grid-template-columns: minmax(800px, 100vw);
+		grid-template-columns: minmax(100vw, 800px);
 		grid-template-rows: 200px 50px auto auto auto auto;
 		grid-template-areas:
 			"header"
