@@ -124,7 +124,8 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: var(--fg-colour)
+	background-color: var(--fg-colour);
+	bottom: 0px;
 }
 
 li > a {
