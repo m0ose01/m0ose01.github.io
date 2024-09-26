@@ -9,4 +9,3 @@ If you have any inquiries, feel free to contact me by email, or reach out to me 
 * Name: Séamus O'Sullivan
 * Email: m0ose@proton.me
 * Github: [m0ose01](https://github.com/m0ose01)
-* Twitter: [mooseNeuro](https://twitter.com/mooseNeuro)
