@@ -133,3 +133,24 @@ li > a {
 	text-decoration: none;
 	color: var(--text-colour);
 }
+
+ul.toc {
+	list-style-type: none;
+	width: 100%;
+}
+
+ul.toc > li {
+	padding: 5px;
+	margin: 5px;
+	background-color: var(--bg-colour);
+	text-align: center;
+}
+
+ul.toc > li > a:hover {
+	color: var(--fg-colour);
+}
+
+li > a {
+	width: 100%;
+	display: inline-block;
+}
