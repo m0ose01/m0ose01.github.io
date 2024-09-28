@@ -1,6 +1,6 @@
 :root {
-	--bg-colour: WhiteSmoke;
-	--fg-colour: SeaGreen;
+	--bg-colour: #f3dfc1;
+	--fg-colour: #e0c9a6;
 	--text-colour: black;
 
 	--standard-padding: 10px;
@@ -101,6 +101,7 @@ img {
 	align-items: start;
 	padding: 10px;
 	grid-area: main;
+	background-color: var(--fg-colour);
 }
 
 #sidebar-left {
