@@ -30,7 +30,7 @@ img {
 
 		display: grid;
 		grid-template-columns: minmax(100vw, 800px);
-		grid-template-rows: 200px 50px auto auto auto auto;
+		grid-template-rows: 200px 50px auto minmax(600px, auto) auto auto;
 		grid-template-areas:
 			"header"
 			"topbar"
@@ -50,7 +50,7 @@ img {
 
 		display: grid;
 		grid-template-columns: 1fr 800px 1fr;
-		grid-template-rows: 200px 50px auto auto;
+		grid-template-rows: 200px 50px minmax(600px, auto) auto;
 		grid-template-areas:
 			"header header header"
 			"topbar topbar topbar"
