@@ -38,8 +38,8 @@ img {
 			"main"
 			"sidebar-left"
 			"footer";
-		row-gap: 5px;
-		column-gap: 5px;
+		row-gap: var(--standard-margin);
+		column-gap: var(--standard-margin);
 	}
 }
 
@@ -56,8 +56,8 @@ img {
 			"topbar topbar topbar"
 			"sidebar-left main sidebar-right"
 			"footer footer footer";
-		row-gap: 5px;
-		column-gap: 20px;
+		row-gap: var(--standard-margin);
+		column-gap: var(--standard-margin);
 	}
 }
 
@@ -99,7 +99,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: start;
-	padding: 10px;
+	padding: var(--standard-padding);
 	grid-area: main;
 	background-color: var(--fg-colour);
 }
@@ -118,6 +118,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
+	padding: var(--standard-padding);
 }
 
 #footer {
@@ -126,6 +127,7 @@ img {
 	flex-direction: column;
 	align-items: center;
 	background-color: var(--fg-colour);
+	padding: var(--standard-padding);
 	bottom: 0px;
 }
 
@@ -140,14 +142,14 @@ ul.toc {
 }
 
 ul.toc > li {
-	padding: 5px;
-	margin: 5px;
+	padding: var(--standard-padding);
+	margin: var(--standard-margin);
 	background-color: var(--bg-colour);
 	text-align: center;
 }
 
 ul.toc > li > a:hover {
-	color: var(--fg-colour);
+	color: var(--bg-colour);
 }
 
 li > a {
