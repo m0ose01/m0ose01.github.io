@@ -1,5 +1,6 @@
 :root {
 	--bg-colour: #f3dfc1;
+	--fg-colour: #e0c9a6;
 	--accent-colour: #5c4033;
 	--text-colour: black;
 
@@ -85,7 +86,7 @@ hr {
 	position: sticky;
 	top: 0px;
 
-	background-color: var(--bg-colour);
+	background-color: var(--fg-colour);
 	border: var(--border-radius) solid var(--accent-colour);
 	border-left-style: none;
 	border-right-style: none;
@@ -112,7 +113,7 @@ hr {
 	align-items: start;
 	padding: var(--standard-padding);
 	grid-area: main;
-	background-color: var(--bg-colour);
+	background-color: var(--fg-colour);
 	border: var(--border-radius) solid var(--accent-colour);
 }
 
@@ -146,7 +147,7 @@ hr {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: var(--bg-colour);
+	background-color: var(--fg-colour);
 	border: var(--border-radius) solid var(--accent-colour);
 	border-left-style: none;
 	border-right-style: none;
