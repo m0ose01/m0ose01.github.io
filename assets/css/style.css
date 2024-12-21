@@ -121,6 +121,10 @@ img {
 	padding: var(--standard-padding);
 }
 
+.main-text {
+	line-height: 1.5;
+}
+
 #footer {
 	grid-area: footer;
 	display: flex;
