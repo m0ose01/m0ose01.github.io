@@ -1,6 +1,6 @@
 :root {
 	--bg-colour: #f3dfc1;
-	--fg-colour: #5c4033;
+	--accent-colour: #5c4033;
 	--text-colour: black;
 
 	--standard-padding: 10px;
@@ -25,8 +25,8 @@ img {
 
 hr {
 	height: var(--border-radius);
-	color: var(--fg-colour);
-	background: var(--fg-colour);
+	color: var(--accent-colour);
+	background: var(--accent-colour);
 	font-size: 0;
 	border: 0;
 }
@@ -86,7 +86,7 @@ hr {
 	top: 0px;
 
 	background-color: var(--bg-colour);
-	border: var(--border-radius) solid var(--fg-colour);
+	border: var(--border-radius) solid var(--accent-colour);
 	border-left-style: none;
 	border-right-style: none;
 	grid-area: topbar;
@@ -103,7 +103,7 @@ hr {
 }
 
 #topbar > a:hover {
-	color: var(--fg-colour);
+	color: var(--accent-colour);
 }
 
 #main {
@@ -113,7 +113,7 @@ hr {
 	padding: var(--standard-padding);
 	grid-area: main;
 	background-color: var(--bg-colour);
-	border: var(--border-radius) solid var(--fg-colour);
+	border: var(--border-radius) solid var(--accent-colour);
 }
 
 #main > * {
@@ -147,7 +147,7 @@ hr {
 	flex-direction: column;
 	align-items: center;
 	background-color: var(--bg-colour);
-	border: var(--border-radius) solid var(--fg-colour);
+	border: var(--border-radius) solid var(--accent-colour);
 	border-left-style: none;
 	border-right-style: none;
 	border-bottom-style: none;
@@ -170,12 +170,12 @@ ul.toc > li {
 	padding: var(--standard-padding);
 	margin: var(--standard-margin);
 	background-color: var(--bg-colour);
-	border: var(--border-radius) solid var(--fg-colour);
+	border: var(--border-radius) solid var(--accent-colour);
 	text-align: center;
 }
 
 ul.toc > li > a:hover {
-	color: var(--fg-colour);
+	color: var(--accent-colour);
 }
 
 li > a {
