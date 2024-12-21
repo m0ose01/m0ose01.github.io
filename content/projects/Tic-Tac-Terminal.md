@@ -8,7 +8,7 @@ draft = false
 For my [CS50x](https://pll.harvard.edu/course/cs50-introduction-computer-science) final project, I created a TUI-based Tic-Tac-Toe game, with ncurses, written in C.
 The user can create a board of arbitrary size, so long as there is space on the screen.
 
-![Tic-Tac-Terminal splash screen](https://github.com/m0ose01/Tic-Tac-Terminal/blob/main/screenshots/splashscreen.jpg?raw=true)
+![Tic-Tac-Terminal splash screen]({{< remote-resource-url "https://github.com/m0ose01/Tic-Tac-Terminal/blob/main/screenshots/splashscreen.jpg?raw=true" >}})
 
 ## Installation
 
