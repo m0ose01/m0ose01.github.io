@@ -8,4 +8,4 @@ draft = false
 
 My name is Séamus O'Sullivan.
 I graduated from Trinity College Dublin with a degree in neuroscience in 2024.
-You can find my github at <https://github.com/m0ose01>.
+This website is a showcase for my personal projects and scientific publications.
