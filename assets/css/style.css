@@ -1,7 +1,7 @@
 :root {
-	--bg-colour: #f3dfc1;
-	--fg-colour: #e0c9a6;
-	--accent-colour: #5c4033;
+	--bg-colour: white;
+	--fg-colour: WhiteSmoke;
+	--accent-colour: SteelBlue;
 	--text-colour: black;
 
 	--standard-padding: 10px;
