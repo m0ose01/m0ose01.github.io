@@ -9,16 +9,20 @@
 		<hr>
 	</header>
 		{{ .Content }}
-	</article>
-	<ul class="toc">
-		{{ range .Pages }}
-		<li>
-			<a href="{{ .RelPermalink }}">
-				{{ .LinkTitle }}
-			</a>
-		</li>
+		{{ if .Pages }}
+		<div class="toc">
+			<ul>
+				{{ range .Pages }}
+				<li>
+					<a href="{{ .RelPermalink }}">
+						{{ .LinkTitle }}
+					</a>
+				</li>
+				{{ end }}
+			</ul>
+		</div>
 		{{ end }}
-	</ul>
+	</article>
 {{ end }}
 
 {{ define "footer" }}
