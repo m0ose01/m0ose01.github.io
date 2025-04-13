@@ -1,10 +1,10 @@
 {{ $url := .Get 0 }}
 
-{{ with resources.GetRemote $url }}
+{{ with try (resources.GetRemote $url) }}
   {{ with .Err }}
     {{ errorf "%s" . }}
   {{ else }}
-    {{ .RelPermalink }}
+    {{ .Value.RelPermalink }}
   {{ end }}
 {{ else }}
   {{ errorf "Unable to get remote resource %q" $url }}
