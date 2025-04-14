@@ -1,0 +1,18 @@
+{
+  "comments": {
+    "dependencies": {},
+    "devDependencies": {
+      "@tailwindcss/cli": "github.com/m0ose01/personal-website",
+      "@tailwindcss/typography": "github.com/m0ose01/personal-website",
+      "tailwindcss": "github.com/m0ose01/personal-website"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.3",
+    "@tailwindcss/typography": "^0.5.16",
+    "tailwindcss": "^4.1.3"
+  },
+  "name": "m0ose01.github.io",
+  "version": "0.1.0"
+}
