@@ -8,19 +8,14 @@ pageRef = '/'
 weight = 10
 
 [[menus.main]]
-name = 'Contact'
-pageRef = '/contact'
-weight = 20
-
-[[menus.main]]
 name = 'Projects'
 pageRef = '/projects'
-weight = 30
+weight = 20
 
 [[menus.main]]
 name = 'Publications'
 pageRef = '/publications'
-weight = 40
+weight = 30
 
 [module]
 [[module.imports]]
