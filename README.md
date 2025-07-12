@@ -11,4 +11,10 @@ git clone https://github.com/m0ose01/m0ose01.github.io
 ```
 
 Then, [install Hugo](https://gohugo.io/installation), and run `hugo server` in the cloned directory.
+
+```bash
+cd ./m0ose01.github.io
+npm install
+hugo server
+```
 This starts a local webserver, which you can browse at `localhost:1313`.
