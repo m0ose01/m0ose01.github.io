@@ -10,7 +10,7 @@ My name is Séamus O'Sullivan.
 I graduated from Trinity College Dublin with a degree in neuroscience in 2024.
 This website is a showcase for my personal projects and scientific publications.
 
-If you have any inquiries, feel free to contact me by email, or reach out to me on social media.
+If you have any inquiries, feel free to contact me by email.
 
 * Name: Séamus O'Sullivan
 * Email: m0ose@proton.me
