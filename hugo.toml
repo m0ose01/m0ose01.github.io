@@ -20,3 +20,6 @@ theme = 'personal-website'
 
 [build]
 writeStats = true
+
+[params]
+orcid = "0009-0009-1079-7379"

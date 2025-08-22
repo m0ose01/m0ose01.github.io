@@ -14,6 +14,7 @@ If you have any inquiries, feel free to contact me by email.
 * Name: Séamus O'Sullivan
 * Email: m0ose@proton.me
 * Github: [m0ose01](https://github.com/m0ose01)
+* Orcid: {{< orcid-inline >}}
 
 ```goat
 2020 --o
