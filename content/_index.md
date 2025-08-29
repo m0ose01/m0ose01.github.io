@@ -56,12 +56,13 @@ If you have any inquiries, feel free to contact me by email.
        |    |
        |----'
        |
-       |----.   .------------------------------------------------------.
-       |    +---| PhD Student, Znamenskiy Lab, Francis Crick Institute |
-       |    |   '------------------------------------------------------'
-2026 --o    |
-       |    |
-       |    |
 ```
+<!--       |----.   .------------------------------------------------------.-->
+<!--       |    +---| PhD Student, Znamenskiy Lab, Francis Crick Institute |-->
+<!--       |    |   '------------------------------------------------------'-->
+<!--2026 --o    |-->
+<!--       |    |-->
+<!--       |    |-->
+<!--```-->
 
 See below for some recent posts:
